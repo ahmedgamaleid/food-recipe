@@ -6,9 +6,9 @@ let searchcontact = document.getElementById("searchcontact");
 
 $(document).ready(() => {
   searchByName("").then(() => {
-    $(".loading-screen").fadeOut(500); // Use "fadeOut" instead of "fadeout"
+    $(".loading-screen").fadeOut(500);
     $("body").css("overflow", "visible");
-    $("inner.loading-screen").fadeOut(500)
+    $(".inner.loading-screen").fadeOut(500); // Corrected selector
   });
 });
 
