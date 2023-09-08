@@ -1,0 +1,84 @@
+
+body{
+  font-family: 'Neuton', serif;
+  background-color: rgb(244, 239, 239);
+  color: #000000;
+  /* overflow: hidden; */
+
+}
+.loading-screen{
+z-index: 9999999 ;
+display: flex;
+}
+.logo{
+width: 50px;
+
+}
+.meal-layer{
+width: 100%;
+height: 100%;
+background-color: #f9f6f6;
+top: 100%;
+transition: .5s;
+}
+.meal:hover .meal-layer{
+top:0;
+}
+/* .nav-header{
+
+  margin-right: 15px;
+} */
+.side-nav-menu{
+z-index:9999;
+
+}
+.nav-tab{
+background-color: black;
+color: #fffdfd;
+
+}
+.nav-header{
+  background-color: transparent;
+}
+.cursor-pointer{
+  cursor:pointer;
+}
+/* ========================================================================== */
+.alert{
+  width: fit-content;
+ 
+}
+/* =========================================================================== */
+.hero{
+
+    width: 100%;
+    height: 250px;
+    background-color: rgb(21, 21, 21);
+    background-image: url(/homeback.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+    align-items: center;
+    }
+    
+    .hero > h6 {
+      font-size: 4rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-family: 'Neuton', serif;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 250px;
+      padding: 2rem;
+      background-image: linear-gradient(to right,
+        rgba(0, 0, 0, .8) 20%,
+        rgba(0, 0, 0, 0.6) 40%,
+        rgba(0, 0, 0, 0.3) 70%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    }

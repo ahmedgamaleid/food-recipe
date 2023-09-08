@@ -1,0 +1,10 @@
+body{
+    font-family: 'Neuton', serif;
+    background-color: black;
+    color: aliceblue;
+    overflow: hidden;
+  }
+  .loading-screen{
+  z-index: 999999 ;
+  display: flex;
+  }
