@@ -54,7 +54,7 @@ color: #fffdfd;
     width: 100%;
     height: 250px;
     background-color: rgb(21, 21, 21);
-    background-image: url(homeback.jpg);
+    background-image: url(homeback.jpg) !important;
     background-size: cover;
     background-position: center;
     position: relative; 
